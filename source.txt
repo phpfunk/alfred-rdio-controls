@@ -147,7 +147,7 @@ on alfred_script(q)
 				set sound volume to q
 			on error
 				set notify_title to "Invalid Argument"
-				set notify_desc to "The option '" & opt & "' is invalid."
+				set notify_desc to "The option '" & q & "' is invalid."
 			end try
 		end if
 	end tell
