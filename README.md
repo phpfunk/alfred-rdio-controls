@@ -31,7 +31,7 @@ Once installed with Alfred you can run the following commands
 
 Notes
 ----------------
-All growl notification copy the contents of the notification automatically to your clipboard.
+All growl notifications copy the contents of the notification automatically to your clipboard.
 
 
 Download
