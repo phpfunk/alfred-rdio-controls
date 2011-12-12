@@ -36,7 +36,7 @@ All growl notification copy the contents of the notification automatically to yo
 
 Download
 ----------------
-[Spotify Controls](https://github.com/phpfunk/alfred-rdio-controls/downloads)
+[Rdio Controls](https://github.com/phpfunk/alfred-rdio-controls/downloads)
     
 
 ## Version History ##
