@@ -84,7 +84,6 @@ on alfred_script(q)
 	set d to {"d", "duration", "time"}
 	
 	tell application "Rdio"
-		activate
 		try
 			set notify_art to artwork of current track
 		on error
