@@ -40,5 +40,9 @@ Download
     
 
 ## Version History ##
+
+### 1.0.1 - March 16, 2012
+ - Removed activate command from extension
+
 ### 1.0.0 - December 11, 2011###
  - Commit: Initial Release
