@@ -82,6 +82,7 @@ on alfred_script(q)
 	set i to {"i", "now", "current"}
 	set t to {"t", "track", "name", "song"}
 	set d to {"d", "duration", "time"}
+	set h to {"h", "help"}
 	
 	tell application "Rdio"
 		try
@@ -139,6 +140,23 @@ on alfred_script(q)
 		else if q is equal to "url" then
 			set notify_title to "Rdio URL"
 			set notify_desc to rdio url of current track
+			
+		else if q is in h then
+			set notify_title to "Rdio Controls Help"
+			set notify_desc to "Play/Pause: rdio (or p, play, pause, stop)
+Next Track: rdio n (or next or >) 
+Previous Track: rdio pr (or prev or previous or <)
+Change Volume: rdio 30
+Mute: rdio m (or mute or unmute)
+Unmute: rdio m (or mute or unmute) 
+Start App: rdio s (or start or init) 
+Kill App: rdio q (or e, quit, end, exit or kill) 
+Current: rdio i (or now or current) 
+Artist: rdio artist 
+Album: rdio album 
+Track: rdio t (or track or name or song) 
+Duration: rdio d (or duration or tim) 
+URL: rdio url "
 			
 		else
 			try
