@@ -34,12 +34,20 @@ Notes
 All growl notifications copy the contents of the notification automatically to your clipboard.
 
 
+Growl vs. No Growl
+----------------
+Two versions of the extension are available, one with Growl and one without. If you wish to use the one without Growl please install the 'Rdio Controls No Growl.alfredextension' file. This will simply copy the growl notification to your clipboard, rather than display it.
+
+
 Download
 ----------------
 [Rdio Controls](https://github.com/phpfunk/alfred-rdio-controls/downloads)
     
 
 ## Version History ##
+
+### 1.0.2 - August 2, 2012
+ - Add a 'No Growl' version of the extension
 
 ### 1.0.1 - March 16, 2012
  - Removed activate command from extension
