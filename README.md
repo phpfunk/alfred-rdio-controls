@@ -13,7 +13,6 @@ How to use
 
 Once installed with Alfred you can run the following commands
 
-
     rdio          ::  Toggles play/pause (can also use p, play, pause or stop)
     rdio n        ::  Go to the next track (can also use next or >)
     rdio pr       ::  Go to the previous track (can also use prev, previous or <)
@@ -27,7 +26,8 @@ Once installed with Alfred you can run the following commands
     rdio t        ::  Growl notification of current song (can also use track, name or song)
     rdio d        ::  Growl notification of current song duration (can also use duration or time)
     rdio url      ::  Growl notification of current song's Rdio URL
-    
+    rdio help     ::  Help! A Growl notification of available commands
+ 
 
 Notes
 ----------------
